@@ -1,0 +1,22 @@
+{
+    "name": "portofolio_colorlib",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch sass:assets/css"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.5.2",
+        "autoprefixer": "^10.4.19",
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "material-icons": "^1.13.12",
+        "postcss-cli": "^11.0.0"
+    },
+    "devDependencies": {
+        "sass": "^1.77.5"
+    }
+}
