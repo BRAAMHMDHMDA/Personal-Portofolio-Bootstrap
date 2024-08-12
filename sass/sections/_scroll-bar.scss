@@ -1,0 +1,11 @@
+@use'../components/variables' as *;
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+// ::-webkit-scrollbar-track {
+//     background-color: $secondary;
+// }
+::-webkit-scrollbar-thumb {
+    background-color: $primary;
+}

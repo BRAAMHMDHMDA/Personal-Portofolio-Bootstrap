@@ -1,0 +1,11 @@
+body,
+* {
+    font-family: 'Rubik' !important;
+}
+
+// Customizing Varibales
+@import '../sass/components/variables';
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Import Bootstrap icons
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";

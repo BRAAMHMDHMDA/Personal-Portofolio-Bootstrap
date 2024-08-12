@@ -1,0 +1,41 @@
+@use '../components/variables' as *;
+footer {
+    background-color: #080827;
+    .row:first-child {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .email {
+        font-size: 50px;
+        color: white;
+    }
+    .address {
+        color: #c5c5dd;
+    }
+    .social-links {
+        a {
+            margin-right: 15px;
+            padding: 5px;
+        }
+    }
+    @media (max-width:767px) {
+        .row:first-child {
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        .email {
+            font-size: 35px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    @media (max-width:425px) {
+        .email {
+            font-size: 25px;
+        }
+        .address {
+            font-size: 14px;
+        }
+    }
+}

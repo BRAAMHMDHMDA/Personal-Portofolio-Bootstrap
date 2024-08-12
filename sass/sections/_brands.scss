@@ -1,0 +1,9 @@
+.brands {
+    margin-bottom: 100px;
+    .img-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-wrapper:not(:last-child) {}
+}

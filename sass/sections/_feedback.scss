@@ -1,0 +1,20 @@
+.feedback {
+    padding: 100px 0;
+    font-family: "Rufina", serif !important;
+    .buttons {
+        text-align: right;
+        button {
+            width: 50px;
+            height: 50px;
+            border: 1px solid#e3e3e3;
+            background-color: transparent;
+            color: #ff5a5a !important;
+            margin-left: 10px;
+            i {
+                display: block;
+                font-size: 20px;
+                font-weight: 900;
+            }
+        }
+    }
+}
