@@ -20205,7 +20205,7 @@ h6 {
 
 .intro {
   background-color: #eee;
-  background-image: url(./assets/images/landing_hero.jpg.webp);
+  background-image: url(../../assets/images/landing_hero.jpg.webp);
   background-size: cover;
   background-position: center center;
   min-height: calc(100vh - 89px);
@@ -20387,7 +20387,7 @@ h6 {
 
 .contact {
   padding: 120px 0px;
-  background-image: url(./assets/images/section_bg02.jpg);
+  background-image: url(../../assets/images/section_bg02.jpg);
 }
 .contact h1 {
   font-size: 50px;
@@ -20426,7 +20426,7 @@ h6 {
   align-items: center;
 }
 .contact-us {
-  background-image: url(./assets/images/section_contactUs_bg04.jpg.webp);
+  background-image: url(../../assets/images/section_contactUs_bg04.jpg.webp);
   background-size: cover;
   min-height: 50vh;
 }
